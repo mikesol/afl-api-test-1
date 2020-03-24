@@ -1,5 +1,6 @@
 const Ajv = require("ajv");
-let input = process.argv[2];
+const fs = require("fs");
+let input = fs.readFileSync("/dev/stdin").toString();
 const USELESS_ERROR = 0;
 if (!input) {
     console.log("No input");
