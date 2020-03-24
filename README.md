@@ -12,7 +12,7 @@ Then build AFL with QEMU support. Requires hacking QEMU c files on some systems 
 Then generate a few test cases based on the JSON schema or something sensible. ie
 
 ```json
-{"requests":[],:state::0}
+{"requests":[],"state":0}
 {"requests":[{"method": "POST", "headers":{}, "path": "/"}], "state": 0}
 ```
 
